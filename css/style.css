@@ -1,0 +1,93 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #464646;
+}
+
+table {
+  background-color: #161916;
+  border-collapse: collapse;
+  min-width: 400px;
+  max-width: 650px;
+  margin: auto;
+}
+
+table, th, tr {
+  border: 2px solid #464646;
+}
+
+th {
+  color: #d6d6d6;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 20px;
+}
+
+h1 {
+  font-family: Anton, sans-serif;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px black;
+  margin: 0 15px;
+}
+
+#refresh {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.online {
+  background-color: #1f251f;
+  color: #c2ddcb;
+}
+
+.offline {
+  background-color: #2d2d2d;
+  color: #b9b9b9;
+}
+
+.logo {
+  max-width: 50px;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.online .username {
+  color: #fff;
+  font-weight: 600;
+}
+
+.game {
+  font-weight: 600;
+}
+
+.stream {
+  font-style: italic;
+}
+
+.online .stream {
+  color: #aad2a3;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
