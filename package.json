@@ -1,0 +1,27 @@
+{
+  "name": "twitch-browser",
+  "version": "1.0.0",
+  "description": "An app to browser certain twitch channels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifancyabroad/Twitch-Browser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifancyabroad/Twitch-Browser/issues"
+  },
+  "homepage": "https://github.com/ifancyabroad/Twitch-Browser#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
