@@ -5,28 +5,30 @@
   <meta charset="UTF-8">
   <title>Twitch Browser</title>
   <link href="https://fonts.googleapis.com/css?family=Anton|Roboto" rel="stylesheet">
-<script src="https://use.fontawesome.com/641557d8b2.js"></script>
-      <link rel="stylesheet" href="css/style.css"> 
+  <script src="https://use.fontawesome.com/641557d8b2.js"></script>
+  <link rel="stylesheet" href="css/style.css"> 
 </head>
 
 <body>
   <table>
   <thead>
-    <th colspan="4">
-      <div class="flex">
-        <div class="title">
-          <i class="fa fa-3x fa-twitch" aria-hidden="true"></i>
-          <h1>twitch Streams</h1>
+    <tr>
+      <th colspan="4">
+        <div class="flex">
+          <div class="title">
+            <i class="fa fa-3x fa-twitch" aria-hidden="true"></i>
+            <h1>twitch Streams</h1>
+          </div>
+          <button id="refresh" type=button><i class="fa fa-lg fa-refresh" aria-hidden="true"></i></button>
         </div>
-        <button id="refresh" type=button><i class="fa fa-lg fa-refresh" aria-hidden="true"></i></button>
-      </div>
       </th>
+    </tr>
   </thead>
   <tbody id="table">
   </tbody>
 </table>  
     <script src="https://cdn.polyfill.io/v2/polyfill.js?features=default,fetch"></script>
-    <script  src="lib/index.js"></script>
+    <script src="lib/index.js"></script>
 </body>
 
 </html>
